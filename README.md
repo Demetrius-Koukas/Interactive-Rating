@@ -55,6 +55,9 @@ Response:
 - Practice the CSS Flexbox model to reach the desired layout
 - used JS to manipulate html elements and render the response
 
+### Deployment
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ed1701ca-a402-4ef8-8639-9c8bcddf2b20/deploy-status)](https://app.netlify.com/sites/incredible-toffee-c1c0d7/deploys)
+
 
 ### Continued development
 
