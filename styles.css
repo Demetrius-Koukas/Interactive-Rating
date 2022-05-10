@@ -1,0 +1,207 @@
+/******** Global Styles *********/
+/************* start ************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 2rem;
+}
+
+/******** Global Styles *********/
+/************* finish ************/
+
+/******** Rating state *********/
+/************* start ************/
+
+.container-rating {
+  width: 34rem;
+
+  padding: 1.2rem 0;
+  background-color: hsla(216, 14%, 14%, 0.747);
+
+  border: none;
+  border-radius: 2rem;
+}
+
+.header {
+  padding: 1.2rem 2.4rem;
+}
+
+.star-img {
+  margin-bottom: 2.4rem;
+  background-color: hsl(213, 19%, 18%);
+
+  width: 3.6rem;
+  height: 3.6rem;
+  padding: 1.2rem;
+  display: flex;
+  border: none;
+  border-radius: 50%;
+}
+
+.heading {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1.2rem;
+}
+
+.paragraph-content {
+  color: hsl(217, 12%, 63%);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.2rem 2.4rem;
+}
+
+.container-of-ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-bottom: 2.6rem;
+}
+
+.rate {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+
+  width: 3.8rem;
+  height: 3.8rem;
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.rate:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+.rate:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.btn-submit {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 1.2rem 1.2rem;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 5rem;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+/******** Rating state *********/
+/************* FINISH ************/
+
+/******** Thank you state *********/
+/************* START ************/
+
+.container-reply {
+  width: 28rem;
+  height: 32rem;
+
+  padding: 1.2rem 2.4rem 2.4rem 2.4rem;
+  background-color: hsla(216, 14%, 14%, 0.747);
+
+  border: none;
+  border-radius: 2rem;
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  padding: 1.2rem 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.selection img {
+  width: 12.4rem;
+}
+
+.selected-rate {
+  font-size: 1.2rem;
+  color: hsl(25, 97%, 53%);
+  background-color: rgb(39, 41, 46);
+  padding: 0.8rem 1.2rem;
+  border-radius: 5rem;
+}
+
+.thank-you-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thank-you-msg .paragraph-content {
+  text-align: center;
+}
+
+/******** Thank you state *********/
+/************* FINISH ************/
+
+/******** MEDIA QUERIES *********/
+/************* START ************/
+
+/**** Below 400px (400px/16px = 25em *****/
+
+@media (max-width: 25em) {
+  .container-rating {
+    width: 33rem;
+  }
+
+  .paragraph-content {
+    font-size: 1.6rem;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  .container-reply {
+    width: 35rem;
+    font-size: 1.6rem;
+  }
+}
+
+/******** MEDIA QUERIES *********/
+/************* FINISH ************/
