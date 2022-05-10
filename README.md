@@ -1,14 +1,11 @@
 # Interactive-Rating
 Interactive rating template that collects the rating and sends back thank you reply confirmation.
 
-
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
 ## Overview
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-My approach was to work the solution replying on DOM element manipulation and rendering a new div containing the requested format of the 'Thank you' response to be dynamic based on submited rating.
+My approach was to work on a solution relying on DOM element manipulation and rendering a new div containing the requested format of the 'Thank you' response to be dynamic based on submited rating.
 
 
 ### The challenge
